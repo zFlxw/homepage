@@ -1,8 +1,9 @@
 <script lang="ts">
+    import Navbar from "./components/Navbar.svelte";
 </script>
 
 <main>
-  <p class="bg-blue-500">Hello, World!</p>
+    <Navbar />
 </main>
 
 <style>
