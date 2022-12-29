@@ -3,10 +3,8 @@ module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
-      'hr': {
-        '@apply border-0 shrink-0': {},
-        'height': '1px',
-        'background-color': '#464953',
+      backgroundImage: {
+        'homepage': "url('/assets/homepage.jpg')"
       }
     },
     colors: {
