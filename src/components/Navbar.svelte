@@ -9,7 +9,7 @@
     let githubIconColor = '#ffffff';
 </script>
 
-<nav class="bg-neutral-900 w-100 max-w-sm h-screen ">
+<nav class="bg-neutral-900 w-96 h-screen shrink-0">
     <div class="h-full flex flex-col">
         <div class="flex flex-col mt-10">
             <img
