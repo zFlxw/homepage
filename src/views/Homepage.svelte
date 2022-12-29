@@ -1,24 +1,104 @@
-<main class="flex flex-col bg-homepage bg-cover saturate-50 w-full">
-    <div class="flex flex-col w-full text-center mt-20">
+<script lang="ts">
+    const now = new Date();
+    const startDate = new Date(2017, 1, 6);
+
+    const days = Math.floor(
+        (now.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24),
+    );
+</script>
+
+<main class="flex flex-col bg-homepage bg-cover saturate-50 w-full justify-around">
+    <div class="flex flex-col w-full text-center mt-10">
         <p class="text-6xl font-bold text-white">Hey there!</p>
         <p class="text-3xl text-white mt-5">
             Nice to see you here. Let me give you some facts about me:
         </p>
     </div>
-    <div class="mt-48 flex justify-around">
-        <div class="bg-neutral-800 py-5 px-10 rounded-md">
-            <p class="text-white text-3xl font-bold">Current Projects</p>
+    <div class="flex justify-around">
+        <div class="flex flex-col bg-neutral-800 py-5 px-10 rounded-md h-full justify-between">
+            <p class="text-white text-3xl font-bold">Active Projects</p>
             <p
-                class="flex mt-10 mb-5 mx-auto text-4xl font-medium text-white justify-center items-center h-28 w-28 border-4 rounded-full border-primary"
+                class="flex m-auto self-center text-4xl font-medium text-white justify-center items-center h-28 w-28 border-4 rounded-full border-primary"
             >
                 3
             </p>
         </div>
-        <div>
-            <p>Project Overview</p>
+        <div class="bg-neutral-800 py-5 px-10 rounded-md">
+            <p class="text-white text-3xl font-bold text-center">
+                Project Overview
+            </p>
+            <div class="mt-5 grid grid-cols-[8rem_1fr] text-white">
+                <p class="text-xl">Java</p>
+                <p class="my-auto">
+                    <a
+                        href="https://github.com/zFlxw/sorting-algorithms"
+                        class="text-primary">sorting-algoriths</a
+                    >
+                    •
+                    <a
+                        href="https://github.com/zFlxw/advent-of-code-legacy"
+                        class="text-primary">advent-of-code</a
+                    >
+                </p>
+            </div>
+            <div class="mt-5 grid grid-cols-[8rem_1fr] text-white">
+                <p class="text-xl">TypeScript</p>
+                <p class="my-auto">
+                    <a
+                        href="https://github.com/zFlxw/advent-of-typescript"
+                        class="text-primary">advent-of-code</a
+                    >
+                    •
+                    <a
+                        href="https://github.com/Metahond"
+                        class="text-primary">hondicard</a
+                    >
+                </p>
+            </div>
+            <div class="mt-5 grid grid-cols-[8rem_1fr] text-white">
+                <p class="text-xl">HTML / CSS</p>
+                <p class="my-auto">
+                    <a
+                        href="https://github.com/zFlxw/vocab-trainer"
+                        class="text-primary">vocab-trainer</a
+                    >
+                    •
+                    <a
+                        href="https://github.com/zFlxw/bernerdev-codejam-1"
+                        class="text-primary">berndev-codejam</a
+                    >
+                </p>
+            </div>
+            <div class="mt-5 mb-10 grid grid-cols-[8rem_1fr] text-white">
+                <p class="text-xl">Rust</p>
+                <p class="my-auto">
+                    <a
+                        href="https://github.com/zFlxw/advent-of-rust"
+                        class="text-primary">advent-of-code</a
+                    >
+                    •
+                    <a
+                        href="https://github.com/zFlxw/counting-chars"
+                        class="text-primary">counting-chars</a
+                    >
+                </p>
+            </div>
         </div>
-        <div>
-            <p>Days</p>
+        <div class="bg-neutral-800 py-5 px-10 rounded-md w-72">
+            <p class="text-white text-3xl font-bold text-center">Days</p>
+            <p class="text-white text-lg text-center">since I started coding</p>
+            <p
+                class="flex mt-5 mx-auto text-4xl font-medium text-white justify-center items-center h-28 w-28 border-4 rounded-full border-primary"
+            >
+                {days}
+            </p>
+            <p class="mt-4 text-white text-center text-sm italic">
+                (03 Feb. 2017)
+            </p>
         </div>
+    </div>
+    <div class="text-center text-white font-petrona">
+        <p class="text-2xl quote ">If you can't explain it to a six-year-old, you don't understand it yourself.</p>
+        <p class="text-xl italic">~ Albert Einstein</p>
     </div>
 </main>

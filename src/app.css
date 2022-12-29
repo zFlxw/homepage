@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Petrona', serif;
+    src: url('/assets/fonts/Petrona.tff');
+}
+
 @layer base {
     body {
         @apply m-0 overflow-x-hidden font-poppins; 
@@ -10,4 +15,22 @@
 
 hr {
     @apply border-0 shrink-0 h-px bg-neutral-800;
+}
+
+.quote::before {
+    position: relative;
+    content: '“';
+    top: 0.2em;
+    font-size: 2rem;
+    color: #b3b3b3;
+    margin: 0 0.2em;
+}
+
+.quote::after {
+    position: relative;
+    content: '”';
+    top: 0.2em;
+    font-size: 2rem;
+    color: #b3b3b3;
+    margin: 0 0.2em;
 }
