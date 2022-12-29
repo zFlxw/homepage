@@ -44,7 +44,7 @@
             <div class="mt-10 flex flex-row justify-between mx-20">
                 <a
                     href="mailto:lxcalflxw@protonmail.com"
-                    on:mouseenter={(_) => (mailIconColor = '#a2d2ff')}
+                    on:mouseenter={(_) => (mailIconColor = '#00BFFF')}
                     on:mouseleave={(_) => (mailIconColor = '#ffffff')}
                     ><Mail
                         color={mailIconColor}
@@ -53,7 +53,7 @@
                 >
                 <a
                     href="https://instagram.com/i.am.flxw"
-                    on:mouseenter={(_) => (instaIconColor = '#a2d2ff')}
+                    on:mouseenter={(_) => (instaIconColor = '#00BFFF')}
                     on:mouseleave={(_) => (instaIconColor = '#ffffff')}
                     ><Instagram
                         color={instaIconColor}
@@ -62,7 +62,7 @@
                 >
                 <a
                     href="https://github.com/zFlxw"
-                    on:mouseenter={(_) => (githubIconColor = '#a2d2ff')}
+                    on:mouseenter={(_) => (githubIconColor = '#00BFFF')}
                     on:mouseleave={(_) => (githubIconColor = '#ffffff')}
                     ><Github
                         color={githubIconColor}
