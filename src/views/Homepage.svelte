@@ -12,8 +12,6 @@
 <main
     class="xl:ml-96 flex flex-col bg-homepage bg-fixed saturate-50 w-full h-full md:h-screen xl:justify-around"
 >
-    <!-- <img {src} alt="background" class="z-0 fixed top-0 left-0 w-screen h-screen" /> -->
-
     <div class="flex flex-col w-full text-center mt-10">
         <p class="text-4xl xl:text-6xl font-bold text-white">Hey there!</p>
         <p class="text-2xl xl:text-3xl text-white mt-5">
