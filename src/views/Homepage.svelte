@@ -1,9 +1,6 @@
 <script lang="ts">
     const now = new Date();
     const startDate = new Date(2017, 1, 6);
-
-    const src = '/assets/homepage.jpg';
-
     const days = Math.floor(
         (now.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24),
     );
