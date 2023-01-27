@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Petrona', serif;
+    src: url('/assets/fonts/Petrona.tff');
+}
+
+@layer base {
+    body {
+        @apply m-0 overflow-x-hidden font-poppins;
+    }
+}
+
+hr {
+    @apply border-0 shrink-0 h-px bg-neutral-800;
+}
+
+.hero-bg {
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        /* bottom, image */
+        url('/assets/hero.jpg');
+    background-size: cover;
+}
+
+.quote::before {
+    position: relative;
+    content: '“';
+    top: 0.2em;
+    font-size: 2rem;
+    color: #b3b3b3;
+    margin: 0 0.2em;
+}
+
+.quote::after {
+    position: relative;
+    content: '”';
+    top: 0.2em;
+    font-size: 2rem;
+    color: #b3b3b3;
+    margin: 0 0.2em;
+}
