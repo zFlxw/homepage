@@ -29,6 +29,7 @@ module.exports = {
         'neutral-850': '#504E4F',
         'neutral-900': '#3C3A3B',
         'neutral-950': '#48494D',
+        'neutral-1000': '#242323',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],

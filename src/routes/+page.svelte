@@ -3,9 +3,11 @@
 	import Hero from '$lib/views/Hero.svelte';
 	import About from '$lib/views/About.svelte';
 	import Projects from '$lib/views/Projects.svelte';
+	import Footer from '$lib/views/Footer.svelte';
 </script>
 
 <Navbar />
 <Hero />
 <About />
 <Projects />
+<Footer />
