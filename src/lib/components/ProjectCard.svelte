@@ -23,11 +23,20 @@
 			</p>
 		</div>
 		<div class="flex justify-center gap-12">
-			<a href={githubLink} target="_blank" rel="noreferrer"
+			<a
+				href={githubLink}
+				target="_blank"
+				rel="noreferrer"
+				class="hover:scale-110 transition ease-in-out"
 				><img src="/assets/socials/github.svg" alt="GitHub Logo" class="h-12 w-12" /></a
 			>
 			{#if websiteLink}
-				<a href={websiteLink} target="_blank" rel="noreferrer"><Link color="#fff" size={48} /></a>
+				<a
+					href={websiteLink}
+					target="_blank"
+					rel="noreferrer"
+					class="hover:scale-110 transition ease-in-out"><Link color="#fff" size={48} /></a
+				>
 			{/if}
 		</div>
 		<div class="flex flex-row justify-evenly">
