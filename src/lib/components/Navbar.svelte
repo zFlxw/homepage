@@ -1,15 +1,28 @@
 <script lang="ts">
-    import { Home, User, Layers } from 'lucide-svelte';
+	import { Home, User, Layers } from 'lucide-svelte';
 
-    const iconSize = 24;
+	const iconSize = 24;
 </script>
 
-<nav
-	class="fixed bg-white w-screen h-16 bg-opacity-0 bg-blend-overlay shadow-md backdrop-blur-md"
->
+<nav class="fixed bg-white w-screen h-16 bg-opacity-0 bg-blend-overlay shadow-md backdrop-blur-md">
 	<ul class="flex justify-center gap-24 h-full items-center text-2xl text-white font-semibold">
-		<li><a class="flex flex-row items-center gap-3" href=""><Home size={iconSize}/>Home</a></li>
-		<li><a class="flex flex-row items-center gap-3" href=""><User size={iconSize} />About Me</a></li>
-		<li><a class="flex flex-row items-center gap-3" href=""><Layers size={iconSize} />My Projects</a></li>
+		<li>
+			<a
+				class="flex flex-row items-center gap-3 hover:text-primary transition-all ease-in-out"
+				href=""><Home size={iconSize} />Home</a
+			>
+		</li>
+		<li>
+			<a
+				class="flex flex-row items-center gap-3 hover:text-primary transition-all ease-in-out"
+				href=""><User size={iconSize} />About Me</a
+			>
+		</li>
+		<li>
+			<a
+				class="flex flex-row items-center gap-3 hover:text-primary transition-all ease-in-out"
+				href=""><Layers size={iconSize} />My Projects</a
+			>
+		</li>
 	</ul>
 </nav>

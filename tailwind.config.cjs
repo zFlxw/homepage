@@ -23,6 +23,7 @@ module.exports = {
       colors: {
         arctic: '#ffffff',
         primary: '#DA7278',
+        secondary: '#9E9C9A',
         'neutral-700': '#9E9C9A',
         'neutral-800': '#68646A',
         'neutral-900': '#3C3A3B'
