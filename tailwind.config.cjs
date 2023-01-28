@@ -28,10 +28,10 @@ module.exports = {
         'neutral-800': '#68646A',
         'neutral-900': '#3C3A3B'
       },
-    },
-    fontFamily: {
-      poppins: ['Poppins', 'sans-serif'],
-      petrona: ['Petrona', 'serif']
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        petrona: ['Petrona', 'serif']
+      },
     },
   },
   plugins: [],

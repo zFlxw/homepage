@@ -4,7 +4,7 @@
 	import { Mouse } from 'lucide-svelte';
 </script>
 
-<div class="hero-bg h-screen bg-cover flex justify-center items-center">
+<div id="hero" class="hero-bg h-screen bg-cover flex justify-center items-center">
 	<div class="h-full flex items-center">
 		<img src="assets/avatar.jpg" alt="Avatar" class="w-96 h-96 rounded-full shadow-2xl" />
 	</div>
