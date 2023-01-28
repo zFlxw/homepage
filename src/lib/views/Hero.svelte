@@ -18,7 +18,7 @@
 			<Button title="Projects" color="bg-secondary" />
 		</div>
 	</div>
-	<div class="absolute bottom-12 left-50 -translate-x-1/2">
-		<Mouse size={48} strokeWidth={1} color="#fff" />
+	<div class="absolute bottom-12 left-50 -translate-x-1/2 z-0">
+		<Mouse size={48} strokeWidth={1} color="#fff"  />
 	</div>
 </div>

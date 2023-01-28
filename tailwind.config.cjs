@@ -26,7 +26,9 @@ module.exports = {
         secondary: '#9E9C9A',
         'neutral-700': '#9E9C9A',
         'neutral-800': '#68646A',
-        'neutral-900': '#3C3A3B'
+        'neutral-850': '#504E4F',
+        'neutral-900': '#3C3A3B',
+        'neutral-950': '#48494D',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],

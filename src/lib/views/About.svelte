@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Button from './Button.svelte';
-	import CyclingObject from './CyclingObject.svelte';
+	import Button from '../components/Button.svelte';
+	import CyclingObject from '../components/CyclingObject.svelte';
 
 	const age = Math.abs(
 		new Date(Date.now() - new Date('2005-01-23').getTime()).getUTCFullYear() - 1970
@@ -10,9 +10,9 @@
 	);
 </script>
 
-<div id="about-me" class="solid-navbar h-screen bg-arctic mt-24 w-full text-center">
+<div id="about-me" class="h-screen bg-arctic mt-24 w-full text-center">
 	<div class="relative inline-block ">
-		<h1 class="text-8xl font-semibold mt-12 text-center block cool-hr">About Me</h1>
+		<h1 class="text-7xl font-semibold mt-12 text-center block cool-hr">About Me</h1>
 	</div>
 	<CyclingObject entries={['Developer', 'Student', 'Gamer', 'Idiot']} />
 	<div class="flex flex-col gap-24 text-left mx-auto mt-24 w-full max-w-6xl">
@@ -38,7 +38,7 @@
 				<div class="absolute top-0 left-0 bg-gradient-to-t from-white to-transparent w-full h-full"></div>
 			</div>
 		</div>
-		<div>
+		<div class="-mt-8">
 			<Button title="Learn More" color="bg-primary" />
 		</div>
 	</div>

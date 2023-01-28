@@ -8,14 +8,14 @@
 	let handleScroll: () => void;
 
 	const transparentBarClasses =
-		'fixed bg-white w-screen h-16 bg-opacity-0 bg-blend-overlay shadow-md backdrop-blur-md';
-	const solidBarClasses = 'fixed bg-neutral-900 w-screen h-16 z-10';
+		'fixed bg-white w-screen h-16 bg-opacity-0 bg-blend-overlay shadow-md backdrop-blur-md transition-all ease-linear';
+	const solidBarClasses = 'fixed bg-neutral-800 w-screen h-16 z-10 transition-all ease-linear';
 
 	onMount(() => {
 		handleScroll = () => {
 			const heroElement = document.getElementById('hero');
 			const rect = heroElement!.getBoundingClientRect();
-			solidNavbar = !(0 <= window.scrollY && rect.height > window.scrollY);
+			solidNavbar = !(0 <= window.scrollY + 64 && rect.height > window.scrollY + 64);
 		};
 
 		handleScroll();
