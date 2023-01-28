@@ -24,7 +24,21 @@ hr {
             rgba(0, 0, 0, 0.5)),
         /* bottom, image */
         url('/assets/hero.jpg');
+
+    background-attachment: fixed;
     background-size: cover;
+}
+
+.cool-hr::before {
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: theme('colors.primary');
+    width: 33%;
+    height: 10px;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .quote::before {
