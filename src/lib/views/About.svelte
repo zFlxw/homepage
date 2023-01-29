@@ -51,7 +51,7 @@
 						My coding journey started with Minecraft Spigot plugins. I was 12 years old and I wanted
 						to create my own plugins, so I started watching some tutorials on YouTube. As I had no
 						knowledge of Java nor any other programming language at this points, the plugins were
-						pretty bad and I had to learn a lot <br /><br />
+						pretty bad and I had to learn a lot. <br /><br />
 						After a few months of only creating plugins, I started to learn the
 						<strong>Java</strong> language. It was a harsh start, I tried multiple times and failed every
 						time. After each try, there were multiple breaks from coding at all, but I started over and

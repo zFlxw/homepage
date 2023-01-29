@@ -2,7 +2,7 @@
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 </script>
 
-<div class="bg-neutral-900 h-fit pt-16 pb-32 w-full text-center">
+<div id="my-projects" class="bg-neutral-900 h-fit pt-16 pb-32 w-full text-center">
 	<div class="relative inline-block">
 		<h1 class="text-7xl text-arctic font-semibold mt-12 text-center block cool-hr">My Projects</h1>
 	</div>

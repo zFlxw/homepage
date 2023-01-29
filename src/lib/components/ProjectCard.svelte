@@ -15,7 +15,7 @@
 	<div class="w-full rounded-t-2xl h-48 bg-neutral-900">
 		<img src="/assets/projects/{logoName}.png" alt="Project Logo" class="w-48 h-48 mx-auto" />
 	</div>
-	<div class="flex flex-col gap-24">
+	<div class="flex flex-col gap-20">
 		<div class="text-left mx-8">
 			<h1 class="text-arctic text-4xl mt-8 font-semibold">{name}</h1>
 			<p class="text-2xl text-arctic mt-4">

@@ -4,7 +4,7 @@
 	import { Mouse } from 'lucide-svelte';
 </script>
 
-<div id="hero" class="hero-bg h-screen bg-cover flex justify-center items-center">
+<div id="hero" class="hero-bg h-screen bg-cover flex justify-center items-center -z-20">
 	<div class="h-full flex items-center">
 		<img src="assets/avatar.jpg" alt="Avatar" class="w-96 h-96 rounded-full shadow-2xl" />
 	</div>
@@ -14,11 +14,11 @@
 			My name is Maik and I create stuff. Oh, you want to know what stuff? <br/> Find out here!
 		</h3>
 		<div class="mt-14 flex gap-6">
-			<Button title="About Me" color="bg-primary" />
-			<Button title="Projects" color="bg-secondary" />
+			<a href="#about-me"><Button title="About Me" color="bg-primary" /></a>
+			<a href="#my-projects"><Button title="Projects" color="bg-secondary" /></a>
 		</div>
 	</div>
-	<div class="absolute bottom-12 left-50 -translate-x-1/2 z-0">
+	<div class="absolute bottom-12 left-50 -translate-x-1/2 z-10">
 		<Mouse size={48} strokeWidth={1} color="#fff"  />
 	</div>
 </div>

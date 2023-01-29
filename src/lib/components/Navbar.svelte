@@ -8,8 +8,8 @@
 	let handleScroll: () => void;
 
 	const transparentBarClasses =
-		'fixed bg-white w-screen h-16 bg-opacity-0 bg-blend-overlay shadow-md backdrop-blur-md transition-all ease-linear';
-	const solidBarClasses = 'fixed bg-neutral-800 w-screen h-16 z-10 transition-all ease-linear';
+		'fixed bg-white w-screen h-16 bg-opacity-0 bg-blend-overlay shadow-md backdrop-blur-md transition-all ease-linear z-20';
+	const solidBarClasses = 'fixed bg-neutral-800 w-screen h-16 z-20 transition-all ease-linear';
 
 	onMount(() => {
 		handleScroll = () => {
@@ -28,19 +28,19 @@
 		<li>
 			<a
 				class="flex flex-row items-center gap-3 hover:text-primary transition-all ease-in-out"
-				href=""><Home size={iconSize} />Home</a
+				href="#hero"><Home size={iconSize} />Home</a
 			>
 		</li>
 		<li>
 			<a
 				class="flex flex-row items-center gap-3 hover:text-primary transition-all ease-in-out"
-				href=""><User size={iconSize} />About Me</a
+				href="#about-me"><User size={iconSize} />About Me</a
 			>
 		</li>
 		<li>
 			<a
 				class="flex flex-row items-center gap-3 hover:text-primary transition-all ease-in-out"
-				href=""><Layers size={iconSize} />My Projects</a
+				href="#my-projects"><Layers size={iconSize} />My Projects</a
 			>
 		</li>
 	</ul>
