@@ -9,7 +9,7 @@
 
 <div class="fixed w-full h-screen bg-neutral-1000 z-40">
 	<div class="relative inline-block w-full h-1/6 mt-16">
-		<h1 class="text-arctic text-5xl font-semibold mt-6 text-center block cool-hr">Navigation</h1>
+		<h1 class="text-arctic text-5xl font-semibold mt-6 text-center cool-hr">Navigation</h1>
 	</div>
 	<ul
 		class="w-full h-5/6 text-arctic text-center text-3xl flex flex-col justify-center gap-12 items-center"
