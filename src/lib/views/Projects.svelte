@@ -15,21 +15,5 @@
 			githubLink="https://github.com/Metahond"
 			websiteLink="https://hondicard.metahond.codes"
 		/>
-		<ProjectCard
-			logoName="hondicard"
-			name="Hondicard"
-			description="Hondicard is a card-based learning platform with focus on collaborative learning and free-to-use features. It currently is in development."
-			tagNames={['TypeScript', 'Learning', 'Collaboration']}
-			githubLink="https://github.com/Metahond"
-			websiteLink="https://hondicard.metahond.codes"
-		/>
-		<ProjectCard
-			logoName="hondicard"
-			name="Hondicard"
-			description="Hondicard is a card-based learning platform with focus on collaborative learning and free-to-use features. It currently is in development."
-			tagNames={['TypeScript', 'Learning', 'Collaboration']}
-			githubLink="https://github.com/Metahond"
-			websiteLink="https://hondicard.metahond.codes"
-		/>
 	</div>
 </div>
