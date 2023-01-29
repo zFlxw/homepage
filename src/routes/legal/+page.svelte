@@ -1,4 +1,4 @@
-<div class="w-full text-center">
+<div class="w-full min-h-screen text-center flex flex-col justify-center items-center">
 	<div class="relative inline-block text-center">
 		<h1 class="text-5xl md:text-7xl font-semibold mt-6 md:mt-12 text-center block cool-hr">
 			Legal Notice
