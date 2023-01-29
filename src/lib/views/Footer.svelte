@@ -26,16 +26,24 @@
 
 	<div class="w-full flex justify-center gap-8">
 		<a href="https://github.com/zFlxw" target="_blank" rel="noreferrer"
-			><img src="/assets/socials/github.svg" alt="GitHub" class="w-10 h-10" /></a
+			><img
+				src="/assets/socials/github.svg"
+				alt="GitHub"
+				class="w-10 h-10 hover:invert transition-all ease-linear duration-200"
+			/></a
 		>
 		<a href="https://instagram.com/i.am.flxw" target="_blank" rel="noreferrer"
-			><img src="/assets/socials/instagram.svg" alt="GitHub" class="w-10 h-10" /></a
+			><img
+				src="/assets/socials/instagram.svg"
+				alt="Instagram"
+				class="w-10 h-10 brightness-0 invert hover:invert-0 hover:brightness-100 transition ease-linear duration-50"
+			/></a
 		>
 		<div class="relative">
 			<img
-				src="/assets/socials/discord.png"
-				alt="GitHub"
-				class="w-12 h-10 cursor-pointer"
+				src="/assets/socials/discord.svg"
+				alt="Discord"
+				class="w-12 h-10 cursor-pointer brightness-0 invert hover:invert-0 hover:brightness-100 transition ease-linear duration-50"
 				on:click={() => (showDiscord = !showDiscord)}
 				on:keydown={() => (showDiscord = !showDiscord)}
 			/>
