@@ -29,12 +29,19 @@ module.exports = {
         'neutral-850': '#504E4F',
         'neutral-900': '#3C3A3B',
         'neutral-950': '#48494D',
+        'neutral-975': '#3a3939',
         'neutral-1000': '#242323',
+        'neutral-1050': '#353535',
+        'neutral-1100': '#1E1E1E',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         petrona: ['Petrona', 'serif']
       },
+      screens: {
+        '2xs': '400px',
+        xs: '570px'
+      }
     },
   },
   plugins: [],

@@ -16,15 +16,15 @@
 	}
 </script>
 
-<div id="about-me" class="h-fit py-16 bg-arctic w-full text-center">
+<div id="about-me" class="min-h-fit py-16 bg-arctic w-full text-center">
 	<div class="relative inline-block ">
-		<h1 class="text-7xl font-semibold mt-12 text-center block cool-hr">About Me</h1>
+		<h1 class="text-5xl md:text-7xl font-semibold mt-6 md:mt-12 text-center block cool-hr">About Me</h1>
 	</div>
 	<CyclingObject entries={['Developer', 'Student', 'Gamer', 'Idiot']} />
-	<div class="flex flex-col gap-24 text-left mx-auto mt-24 w-full max-w-6xl">
+	<div class="flex flex-col gap-24 text-left mx-auto mt-16 md:mt-24 w-full max-w-6xl px-8 xl:px-0">
 		<div>
-			<h3 class="font-bold text-4xl">Introduction</h3>
-			<p class="mt-4 text-2xl leading-9">
+			<h3 class="font-bold text-2xl md:text-4xl">Introduction</h3>
+			<p class="mt-4 text-xl md:text-2xl leading-9">
 				My name is Maik and I am a student and hobby-developer from Germany. At the moment you are
 				reading this, I am <strong title="23. Jan. 2005" class="cursor-help">{age} years old</strong
 				>. I started coding
@@ -34,10 +34,10 @@
 			</p>
 		</div>
 		<div>
-			<h3 class="font-bold text-4xl">My Early Years Of Coding (2017 - 2019)</h3>
+			<h3 class="font-bold text-2xl md:text-4xl">My Early Years Of Coding (2017 - 2019)</h3>
 			<div class="relative">
 				{#if !extended}
-					<p class="mt-4 text-2xl leading-9">
+					<p class="mt-4 text-xl md:text-2xl leading-9">
 						My coding journey started with Minecraft Spigot plugins. I was 12 years old and I wanted
 						to create my own plugins, so I started watching some tutorials on YouTube. As I had no
 						knowledge of Java nor any other programming language at this points, the plugins were
@@ -47,7 +47,7 @@
 						class="absolute top-0 left-0 bg-gradient-to-t from-white to-transparent w-full h-full"
 					/>
 				{:else}
-					<p class="mt-4 text-2xl leading-9">
+					<p class="mt-4 text-xl md:text-2xl leading-9">
 						My coding journey started with Minecraft Spigot plugins. I was 12 years old and I wanted
 						to create my own plugins, so I started watching some tutorials on YouTube. As I had no
 						knowledge of Java nor any other programming language at this points, the plugins were
@@ -58,8 +58,8 @@
 						over again.
 					</p>
 
-					<h3 class="font-bold text-4xl mt-24">The First Milestone: Melion (2020 - 2021)</h3>
-					<p class="mt-4 text-2xl leading-9">
+					<h3 class="font-bold text-2xl md:text-4xl mt-24">The First Milestone: Melion (2020 - 2021)</h3>
+					<p class="mt-4 text-xl md:text-2xl leading-9">
 						After my gradution from middle school, I wanted to finally restart my coding journey. I
 						found YouTube tutorials on making Discord bots in Java made by <a
 							href="https://www.youtube.com/@CoasterFreakDE"
@@ -80,8 +80,8 @@
 						six months than in the prevoius three years.
 					</p>
 
-					<h3 class="font-bold text-4xl mt-24">New Track Unlocked: Web Development (2022)</h3>
-					<p class="mt-4 text-2xl leading-9">
+					<h3 class="font-bold text-2xl md:text-4xl mt-24">New Track Unlocked: Web Development (2022)</h3>
+					<p class="mt-4 text-xl md:text-2xl leading-9">
 						The time at Melion (and especially the time with <i>DreamTexX</i>) showed me that I was
 						more interested in web development than in Minecraft plugins. I had some basic
 						understanding of <strong>HTML</strong> and <strong>CSS</strong>, but I wanted to improve
@@ -105,8 +105,8 @@
 						released.
 					</p>
 
-					<h3 class="font-bold text-4xl mt-24">What's Next? (2023)</h3>
-					<p class="mt-4 text-2xl leading-9">
+					<h3 class="font-bold text-2xl md:text-4xl mt-24">What's Next? (2023)</h3>
+					<p class="mt-4 text-xl md:text-2xl leading-9">
 						2023 will be dedicated to the development of Hondicard. I am very excited to further
 						improve my journey as a web developer and I am looking forward to the future. I am also
 						trying to gain some knowledge in <strong>game development</strong> and
