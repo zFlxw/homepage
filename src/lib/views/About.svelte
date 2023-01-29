@@ -2,7 +2,7 @@
 	import Button from '../components/Button.svelte';
 	import CyclingObject from '../components/CyclingObject.svelte';
 
-	let extended = true;
+	let extended = false;
 
 	const age = Math.abs(
 		new Date(Date.now() - new Date('2005-01-23').getTime()).getUTCFullYear() - 1970
@@ -12,8 +12,6 @@
 	);
 
 	function extend() {
-		console.log(1);
-
 		extended = true;
 	}
 </script>
