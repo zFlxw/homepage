@@ -5,7 +5,7 @@
 	const emojis = ['😡', '🥹', '😬'];
 	let emoji: string = emojis[emojiIndex];
 
-	let showDiscord = true;
+	let showDiscord = false;
 
 	function transformEmoji() {
 		emojiIndex = (emojiIndex + 1) % emojis.length;
