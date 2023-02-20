@@ -15,7 +15,7 @@
 
 <footer class="h-fit py-4 bg-neutral-1000 flex flex-col gap-10 md:gap-16">
 	<div>
-		<h1 class="text-arctic text-center text-4xl md:text-5xl font-semibold pt-4">Flxw</h1>
+		<h1 class="text-arctic text-center text-3xl md:text-4xl font-semibold pt-8">Flxw</h1>
 		<div class="text-arctic hidden 2xs:block text-xl md:text-2xl px-8 text-center font-petrona italic">
 			<p class="quote">
 				If you can't explain it to a six-year-old, you don't understand it yourself.
@@ -55,7 +55,7 @@
 	<div class="flex flex-col xs:flex-row items-center justify-center xs:justify-between w-full">
 		<p class="text-center text-neutral-700 text-md md:text-lg mx-5">
 			Designed and Coded by Flxw with <span
-				class="text-primary cursor-default"
+				class="text-primary cursor-default select-none"
 				on:keydown={transformEmoji}
 				on:click={transformEmoji}>{emoji}</span
 			>

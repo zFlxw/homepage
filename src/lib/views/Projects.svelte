@@ -4,9 +4,13 @@
 
 <div id="my-projects" class="bg-neutral-900 h-fit pt-16 pb-32 w-full text-center">
 	<div class="relative inline-block">
-		<h1 class="text-5xl sm:text-7xl text-arctic font-semibold mt-12 text-center block cool-hr">My Projects</h1>
+		<h1 class="text-5xl sm:text-6xl text-arctic font-semibold mt-12 text-center block cool-hr">
+			My Projects
+		</h1>
 	</div>
-	<div class="w-full mt-24 grid lg:grid-cols-2 2xl:grid-cols-3 place-items-center gap-y-0 xs:gap-y-12">
+	<div
+		class="w-full mt-24 grid lg:grid-cols-2 2xl:grid-cols-3 place-items-center gap-y-0 xs:gap-y-12"
+	>
 		<ProjectCard
 			logoName="hondicard.png"
 			name="Hondicard"

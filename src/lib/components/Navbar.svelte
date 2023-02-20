@@ -49,7 +49,7 @@
 
 <nav class="hidden xs:block {!solidNavbar ? transparentBarClasses : solidBarClasses}">
 	<ul
-		class="flex justify-center gap-16 md:gap-24 h-full items-center text-xl md:text-2xl text-white font-semibold"
+		class="flex justify-center gap-16 md:gap-24 h-full items-center text-xl md:text-xl text-white font-semibold"
 	>
 		<li>
 			<a

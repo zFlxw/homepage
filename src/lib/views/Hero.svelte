@@ -6,14 +6,14 @@
 
 <div id="hero" class="hero-bg py-12 min-h-screen bg-cover bg-center xs:px-20 flex flex-col xl:flex-row justify-center items-center gap-12 -z-20">
 	<div class="xl:h-full flex items-center">
-		<img src="assets/avatar.jpg" alt="Avatar" class="w-48 h-48 2xs:w-64 2xs:h-64 2xl:w-96 2xl:h-96 rounded-full shadow-2xl" />
+		<img src="assets/avatar_eyes.png" alt="Avatar" class="w-64 h-64 2xs:w-80 2xs:h-80 2xl:w-[32rem] 2xl:h-[32rem]" />
 	</div>
 	<div class="text-center xl:text-left px-4">
-		<h1 class="text-white text-4xl 2xl:text-6xl font-semibold">EHLO Maik</h1>
-		<h3 class="text-white mt-5 text-2xl 2xl:text-3xl w-full max-w-5xl">
+		<h1 class="text-white text-4xl 2xl:text-5xl font-semibold">EHLO Maik</h1>
+		<h3 class="text-white mt-5 text-2xl 2xl:text-2xl w-full max-w-5xl">
 			My name is Maik and I create stuff. Oh, you want to know what stuff? <br/> Find out here!
 		</h3>
-		<div class="mt-8 sm:mt-14 flex flex-col sm:flex-row gap-2 sm:gap-6 justify-center items-center xl:justify-start">
+		<div class="mt-8 sm:mt-14 flex flex-col sm:flex-row gap-1 sm:gap-6 justify-center items-center xl:justify-start">
 			<a href="#about-me"><Button title="About Me" color="bg-primary" /></a>
 			<a href="#my-projects"><Button title="Projects" color="bg-secondary" /></a>
 		</div>
